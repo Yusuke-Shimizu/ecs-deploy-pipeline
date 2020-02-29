@@ -1,0 +1,3 @@
+test:
+	cdk diff
+	pytest
