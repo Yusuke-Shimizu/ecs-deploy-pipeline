@@ -2,7 +2,7 @@ import json
 import pytest
 
 from aws_cdk import core
-from ecs-deploy-pipeline.ecs_deploy_pipeline_stack import EcsDeployPipelineStack
+from ecs_deploy_pipeline.ecs_deploy_pipeline_stack import EcsDeployPipelineStack
 
 
 def get_template():
