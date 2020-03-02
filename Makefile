@@ -18,3 +18,8 @@ clean:
 	rm -rf /tmp/jsii-kernel-* 
 	rm -rf /tmp/cdk.out*
 	du -sh /tmp/
+
+update_cdk:
+	cdk version
+	npm update -g aws-cdk
+	cdk version
